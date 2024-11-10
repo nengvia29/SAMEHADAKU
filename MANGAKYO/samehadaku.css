@@ -1,0 +1,150 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e40046;
+    padding: 15px 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.navbar .search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.navbar .search-bar button {
+    background-color: #ffffff;
+    color: #e40046;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Highlight Komik Terpopuler */
+.content .highlight {
+    background-color: #e40046;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.highlight h2 {
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.comic-grid {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comic {
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+}
+
+.comic img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.comic p {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.comic span {
+    color: #bbbbbb;
+    font-size: 0.9rem;
+}
+
+/* Search Box */
+.search-box {
+    background-color: #f7f7f7;
+    color: #181818;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Update Project */
+.update-project {
+    margin: 20px;
+    color: #ffffff;
+}
+
+.update-project h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.comic-update-grid {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comic-update {
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+}
+
+.comic-update img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.comic-update p {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
